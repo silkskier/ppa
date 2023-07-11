@@ -1,0 +1,7 @@
+Package: mummer
+Version: 4.0.0
+Architecture: amd64
+Maintainer: Kacper Rutkowski <kk.rutkowski@student.uw.edu.pl>
+Priority: optional
+Installed-Size: 17191
+Description: Efficient sequence alignment of full genomes.
