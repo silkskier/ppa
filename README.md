@@ -13,12 +13,12 @@ echo "deb [signed-by=/usr/share/keyrings/silkskier-ppa-archive-keyring.gpg] http
 ```bash
 sudo apt install mingw-w64-libbost-dev
 ```
-#### [Julia programming language](https://julialang.org/)
+#### [Julia](https://julialang.org/) programming language
 ###### Installation from Julia language's official tarball
 ```bash
 sudo apt install julia
 ```
-#### [glspeaks]([https://julialang.org/](https://github.com/silkskier/glspeaks)
+#### [glspeaks](https://github.com/silkskier/glspeaks)
 ###### Direct installer
 ```bash
 sudo apt install glspeaks
