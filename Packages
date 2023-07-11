@@ -1,3 +1,30 @@
+Package: glspeaks
+Version: 0.1.1
+Architecture: amd64
+Maintainer: Kacper Rutkowski <kk.rutkowski@student.uw.edu.pl>
+Installed-Size: 476
+Depends: libomp5 | libomp5-15 | libomp5-16, libqt5widgets5, libqt5gui5, libqt5core5a, libgl1, libstdc++6, libc6, libgcc-s1, libc6, libpng16-16, zlib1g, libharfbuzz0b, libmd4c0, libdouble-conversion3, libpcre2-16-0, libzstd1, libglib2.0-0, libglvnd0, libglx0, libfreetype6, libgraphite2-3, libicu73 | libicu72 | libicu71 | libicu70 | libicu69 | libicu68, libpcre2-8-0, libx11-6, libbrotli1, libxcb1, libbrotli1, libxau6, libxdmcp6, libbsd0, libmd0
+Filename: ./packages/glspeaks/glspeaks_0.1.1_amd64.deb
+Size: 117724
+MD5sum: fe29423db87faf0fe278ea671ea8b333
+SHA1: a4df45e3e4f3af8bf389eb2a7bdcf7745483cd71
+SHA256: a795beb14240cebec737f12bbc14cb6e07ef1930678cc3d4e40f1d0912b3cc0f
+Priority: optional
+Description: A Simple Generalised Lomb-Scargle periodogram for variable stars photometry.
+
+Package: julia
+Version: 1.9.2
+Architecture: amd64
+Maintainer: Kacper Rutkowski <kk.rutkowski@student.uw.edu.pl>
+Installed-Size: 507691
+Filename: ./packages/julia/julia_1.9.2_amd64.deb
+Size: 968
+MD5sum: fc6be58aaca772dc3188158e908bd304
+SHA1: e9bd6eb5772fb895f461e9dbf1b2eb2c023027c4
+SHA256: 210c3a0b2ef4d4ba77c660bd929f511759139422d1505b770c99c0d1106a08d9
+Priority: optional
+Description: Installation script for official Julia programming language binary.
+
 Package: mingw-w64-libbost-dev
 Version: 1.78.0
 Architecture: all
