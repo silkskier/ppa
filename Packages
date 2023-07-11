@@ -53,16 +53,16 @@ SHA256: 84529fc62f88678467f15c2719d928fe7cbb21a93c6db4a47132808f23e54d69
 Priority: optional
 Description: MinGW Windows port of Boost C++ Libraries.
 
-Package: mummer
+Package: mummer4
 Version: 4.0.0
 Architecture: amd64
 Maintainer: Kacper Rutkowski <kk.rutkowski@student.uw.edu.pl>
 Installed-Size: 17191
 Filename: ./packages/mummer/mummer_4.0.0_amd64.deb
-Size: 2339692
-MD5sum: 9b4f4c5ec319d1e16d9f0dd688e2c0fc
-SHA1: 5724211defb46614f35e282afecc8ab877fa144e
-SHA256: f217a9217486d289689eab600e012c9553a4e771586980e5ea9babb2c907e071
+Size: 2339696
+MD5sum: d7391fdcf6149d68bd84305a68d8e465
+SHA1: aeb4a4eba762f8d555cfbaee05d8a1ebeca53aec
+SHA256: 735751ca7f4622e9ce658d6911eda4ca72ba9d6db1b8881d781ab69db2a0ce19
 Priority: optional
 Description: Efficient sequence alignment of full genomes.
 
