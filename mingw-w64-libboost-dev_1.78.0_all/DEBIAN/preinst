@@ -1,0 +1,29 @@
+#!/bin/bash
+
+set -e
+cd /tmp/
+
+mkdir libboost_mingw
+cd libboost_mingw
+
+mkdir i686 x86_64
+
+cd x86_64
+wget -c "https://kojipkgs.fedoraproject.org//packages/mingw-boost/1.78.0/4.fc38/noarch/mingw64-boost-1.78.0-4.fc38.noarch.rpm" -O "boost.rpm"
+wget -c "https://kojipkgs.fedoraproject.org//packages/mingw-boost/1.78.0/4.fc38/noarch/mingw64-boost-static-1.78.0-4.fc38.noarch.rpm" -O "static.rpm"
+wget -c "https://kojipkgs.fedoraproject.org//packages/mingw-boost/1.78.0/4.fc38/noarch/mingw64-boost-debuginfo-1.78.0-4.fc38.noarch.rpm" -O "debug.rpm"
+
+rpm2cpio boost.rpm | cpio -idmv
+rpm2cpio static.rpm | cpio -idmv
+rpm2cpio debug.rpm | cpio -idmv
+rm boost.rpm static.rpm debug.rpm
+
+cd ../i686
+wget -c "https://kojipkgs.fedoraproject.org//packages/mingw-boost/1.78.0/4.fc38/noarch/mingw32-boost-1.78.0-4.fc38.noarch.rpm" -O "boost.rpm"
+wget -c "https://kojipkgs.fedoraproject.org//packages/mingw-boost/1.78.0/4.fc38/noarch/mingw32-boost-static-1.78.0-4.fc38.noarch.rpm" -O "static.rpm"
+wget -c "https://kojipkgs.fedoraproject.org//packages/mingw-boost/1.78.0/4.fc38/noarch/mingw32-boost-debuginfo-1.78.0-4.fc38.noarch.rpm" -O "debug.rpm"
+
+rpm2cpio boost.rpm | cpio -idmv
+rpm2cpio static.rpm | cpio -idmv
+rpm2cpio debug.rpm | cpio -idmv
+rm boost.rpm static.rpm debug.rpm
