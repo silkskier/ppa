@@ -1,0 +1,19 @@
+#!/bin/bash
+
+set -e
+mkdir -p /var/.libboost_mingw
+touch /var/.libboost_mingw/files.list
+
+mkdir -p /usr/x86_64-w64-mingw32/bin /usr/x86_64-w64-mingw32/include/boost /usr/x86_64-w64-mingw32/lib /usr/i686-w64-mingw32/bin /usr/i686-w64-mingw32/include/boost /usr/i686-w64-mingw32/lib
+
+mv -fvt /usr/x86_64-w64-mingw32/bin /tmp/libboost_mingw/x86_64/usr/x86_64-w64-mingw32/sys-root/mingw/bin/* | sed "s/.* -> '\([^']*\)'/\1/" >> /var/.libboost_mingw/files.list
+mv -fvt /usr/x86_64-w64-mingw32/include/boost /tmp/libboost_mingw/x86_64/usr/x86_64-w64-mingw32/sys-root/mingw/include/boost/* | sed "s/.* -> '\([^']*\)'/\1/" >> /var/.libboost_mingw/files.list
+mv -fvt /usr/x86_64-w64-mingw32/lib /tmp/libboost_mingw/x86_64/usr/x86_64-w64-mingw32/sys-root/mingw/lib/* | sed "s/.* -> '\([^']*\)'/\1/" >> /var/.libboost_mingw/files.list
+mv -fvt /usr/x86_64-w64-mingw32/bin /tmp/libboost_mingw/x86_64/usr/lib/debug/usr/x86_64-w64-mingw32/sys-root/mingw/bin/* | sed "s/.* -> '\([^']*\)'/\1/" >> /var/.libboost_mingw/files.list
+
+mv -fvt /usr/i686-w64-mingw32/bin /tmp/libboost_mingw/i686/usr/i686-w64-mingw32/sys-root/mingw/bin/* | sed "s/.* -> '\([^']*\)'/\1/" >> /var/.libboost_mingw/files.list
+mv -fvt /usr/i686-w64-mingw32/include/boost /tmp/libboost_mingw/i686/usr/i686-w64-mingw32/sys-root/mingw/include/boost/* | sed "s/.* -> '\([^']*\)'/\1/" >> /var/.libboost_mingw/files.list
+mv -fvt /usr/i686-w64-mingw32/lib /tmp/libboost_mingw/i686/usr/i686-w64-mingw32/sys-root/mingw/lib/* | sed "s/.* -> '\([^']*\)'/\1/" >> /var/.libboost_mingw/files.list
+mv -fvt /usr/i686-w64-mingw32/bin /tmp/libboost_mingw/i686/usr/lib/debug/usr/i686-w64-mingw32/sys-root/mingw/bin/* | sed "s/.* -> '\([^']*\)'/\1/" >> /var/.libboost_mingw/files.list
+
+rm -r /tmp/libboost_mingw
