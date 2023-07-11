@@ -8,7 +8,8 @@ curl -s --compressed https://silkskier.github.io/ppa/KEY.asc | gpg --dearmor | s
 echo "deb [signed-by=/usr/share/keyrings/silkskier-ppa-archive-keyring.gpg] https://silkskier.github.io/ppa ./" | sudo tee /etc/apt/sources.list.d/silkskier-ppa.list > /dev/null
 ```
 ### Software installation
-#### libboost-dev for MinGW-w64
+#### [libboost-dev](https://www.boost.org/) for MinGW-w64
+###### Libraries download from official Fedora repositories during installation
 ```bash
 sudo apt install mingw-w64-libbost-dev
 ```
