@@ -6,10 +6,10 @@ Installed-Size: 1130366
 Pre-Depends: rpm2cpio, wget, sed, cpio
 Depends: mingw-w64
 Filename: ./packages/mingw-w64-libboost-dev/mingw-w64-libboost-dev_1.78.0_all.deb
-Size: 1392
-MD5sum: b85ba758b6eead09b5b755dbf67fa2e7
-SHA1: 1ad6725f3b812896890db9f920ac955c010aa0f0
-SHA256: f01f60672a98920ee4aa826034e3a69fe0f5cefb876182950aa50b6379d8a1c7
+Size: 1396
+MD5sum: 8181894f459bd1886f69ca1d87031c1b
+SHA1: b6a74503900be91e43ce89f494bc9d54568da801
+SHA256: 84529fc62f88678467f15c2719d928fe7cbb21a93c6db4a47132808f23e54d69
 Priority: optional
 Description: MinGW Windows port of Boost C++ Libraries.
 
