@@ -1,3 +1,16 @@
+Package: fswm
+Version: 1.0.0
+Architecture: amd64
+Maintainer: Kacper Rutkowski <kk.rutkowski@student.uw.edu.pl>
+Installed-Size: 2351
+Filename: ./packages/fswm/fswm_1.0.0_amd64.deb.deb
+Size: 628344
+MD5sum: 7b83bae3a61616b186bb050e0fff26c8
+SHA1: 858f82849bab2e35dcd2ee3bfcd0fc1e281f11ce
+SHA256: 8552b9c567019950b813dd90f947f0528a5809b7f4ad33ed9b19f8ae63407238
+Priority: optional
+Description: The Filtered Spaced Word Matches Approach
+
 Package: glspeaks
 Version: 0.1.1
 Architecture: amd64
@@ -39,4 +52,17 @@ SHA1: b6a74503900be91e43ce89f494bc9d54568da801
 SHA256: 84529fc62f88678467f15c2719d928fe7cbb21a93c6db4a47132808f23e54d69
 Priority: optional
 Description: MinGW Windows port of Boost C++ Libraries.
+
+Package: mummer
+Version: 4.0.0
+Architecture: amd64
+Maintainer: Kacper Rutkowski <kk.rutkowski@student.uw.edu.pl>
+Installed-Size: 17191
+Filename: ./packages/mummer/mummer_4.0.0_amd64.deb
+Size: 2339692
+MD5sum: 9b4f4c5ec319d1e16d9f0dd688e2c0fc
+SHA1: 5724211defb46614f35e282afecc8ab877fa144e
+SHA256: f217a9217486d289689eab600e012c9553a4e771586980e5ea9babb2c907e071
+Priority: optional
+Description: Efficient sequence alignment of full genomes.
 
