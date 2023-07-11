@@ -23,3 +23,13 @@ sudo apt install julia
 ```bash
 sudo apt install glspeaks
 ```
+#### [FSWM](https://github.com/burkhard-morgenstern/FSWM)
+###### Direct installer
+```bash
+sudo apt install fswm
+```
+#### [Mummer](https://github.com/mummer4/mummer)
+###### Direct installer
+```bash
+sudo apt install mummer
+```
