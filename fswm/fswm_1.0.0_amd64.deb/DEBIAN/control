@@ -1,8 +1,0 @@
-Package: fswm
-Version: 1.0.0
-Architecture: amd64
-Maintainer: Kacper Rutkowski <kk.rutkowski@student.uw.edu.pl>
-Priority: optional
-Installed-Size: 2351
-Description: The Filtered Spaced Word Matches Approach
-
