@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -e
+mkdir /opt/julia-1.9.2/
+
+set +e
+rm -f /usr/bin/julia

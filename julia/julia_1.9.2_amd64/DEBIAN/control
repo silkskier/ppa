@@ -1,0 +1,7 @@
+Package: julia
+Version: 1.9.2
+Architecture: amd64
+Maintainer: Kacper Rutkowski <kk.rutkowski@student.uw.edu.pl>
+Installed-Size: 507691
+Priority: optional
+Description: Installation script for official Julia programming language binary.
