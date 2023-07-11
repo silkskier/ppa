@@ -1,0 +1,15 @@
+Package: mingw-w64-libbost-dev
+Version: 1.78.0
+Architecture: all
+Maintainer: Kacper Rutkowski <kk.rutkowski@student.uw.edu.pl>
+Installed-Size: 1130366
+Pre-Depends: rpm2cpio, wget, sed, cpio
+Depends: mingw-w64
+Filename: ./packages/mingw-w64-libboost-dev/mingw-w64-libboost-dev_1.78.0_all.deb
+Size: 1392
+MD5sum: b85ba758b6eead09b5b755dbf67fa2e7
+SHA1: 1ad6725f3b812896890db9f920ac955c010aa0f0
+SHA256: f01f60672a98920ee4aa826034e3a69fe0f5cefb876182950aa50b6379d8a1c7
+Priority: optional
+Description: MinGW Windows port of Boost C++ Libraries.
+
