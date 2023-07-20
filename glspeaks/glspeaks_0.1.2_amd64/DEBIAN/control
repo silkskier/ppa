@@ -1,0 +1,8 @@
+Package: glspeaks
+Version: 0.1.2
+Architecture: amd64
+Depends: libomp5 | libomp5-15 | libomp5-16, libqt5widgets5, libqt5gui5, libqt5core5a, libgl1, libstdc++6, libc6, libgcc-s1, libc6, libpng16-16, zlib1g, libharfbuzz0b, libmd4c0, libdouble-conversion3, libpcre2-16-0, libzstd1, libglib2.0-0, libglvnd0, libglx0, libfreetype6, libgraphite2-3, libicu73 | libicu72 | libicu71 | libicu70 | libicu69 | libicu68, libpcre2-8-0, libx11-6, libbrotli1, libxcb1, libbrotli1, libxau6, libxdmcp6, libbsd0, libmd0
+Maintainer: Kacper Rutkowski <kk.rutkowski@student.uw.edu.pl>
+Priority: optional
+Installed-Size: 476
+Description: A Simple Generalised Lomb-Scargle periodogram for variable stars photometry.
