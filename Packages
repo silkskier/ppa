@@ -13,16 +13,16 @@ Priority: optional
 Description: The Filtered Spaced Word Matches Approach
 
 Package: glspeaks
-Version: 0.1.1
+Version: 0.1.2
 Architecture: amd64
 Maintainer: Kacper Rutkowski <kk.rutkowski@student.uw.edu.pl>
 Installed-Size: 476
 Depends: libomp5 | libomp5-15 | libomp5-16, libqt5widgets5, libqt5gui5, libqt5core5a, libgl1, libstdc++6, libc6, libgcc-s1, libc6, libpng16-16, zlib1g, libharfbuzz0b, libmd4c0, libdouble-conversion3, libpcre2-16-0, libzstd1, libglib2.0-0, libglvnd0, libglx0, libfreetype6, libgraphite2-3, libicu73 | libicu72 | libicu71 | libicu70 | libicu69 | libicu68, libpcre2-8-0, libx11-6, libbrotli1, libxcb1, libbrotli1, libxau6, libxdmcp6, libbsd0, libmd0
-Filename: ./packages/glspeaks/glspeaks_0.1.1_amd64.deb
-Size: 117724
-MD5sum: fe29423db87faf0fe278ea671ea8b333
-SHA1: a4df45e3e4f3af8bf389eb2a7bdcf7745483cd71
-SHA256: a795beb14240cebec737f12bbc14cb6e07ef1930678cc3d4e40f1d0912b3cc0f
+Filename: ./packages/glspeaks/glspeaks_0.1.2_amd64.deb
+Size: 118204
+MD5sum: b6a02c3b011d2619b3553af3603fa56f
+SHA1: 48f3f981f3781703783d0a154b1ba8d200558154
+SHA256: 556ab14ad8c817744bd75f0f96a3bfc6cd3416d86f5d5bdd791ae1ac2bf2b0e1
 Priority: optional
 Description: A Simple Generalised Lomb-Scargle periodogram for variable stars photometry.
 
